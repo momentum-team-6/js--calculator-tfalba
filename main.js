@@ -17,6 +17,11 @@ container.addEventListener('click', function (event) {
         //display.innerHTML = input
         //which is the final thing it does in else
 
+        //from Amy's suggestion today, a cleaner way to handle this could
+        //be to set up another event listener 
+        //Could also write this as a function that gets called here and then 
+        //would keep this section of code tighter
+
         if (input.length>20) {
             display.innerHTML="Error"
         }
