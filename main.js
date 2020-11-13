@@ -11,10 +11,12 @@ container.addEventListener('click', function (event) {
     // display.innerHTML = event.target.innerText
     if (input.length>3) {
         display.classList.add('highlight')
+        display.classList.remove('highlight2')
         display.innerHTML = input
     }
     else if (input.length>2) {
         display.classList.add('highlight2')
+        display.classList.remove('highlight')
         display.innerHTML = input
     }
     else {
@@ -22,7 +24,7 @@ container.addEventListener('click', function (event) {
 }}
 else if (event.target.classList.contains('equals')) {
     output=eval(input)
-    display.innerHTML = output
+    display.innerHTML = output+" "
 }
 else if (event.target.classList.contains('boxc')) {
     input=""
