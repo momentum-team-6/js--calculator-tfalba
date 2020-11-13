@@ -62,10 +62,15 @@ body {
     background-color: #362382;
 }
 
-.highlight {
-    font-size: 1.3rem;
-}
 
-.highlight2 {
+.highlight1 {
     font-size: 1.5rem;
 }
+.highlight2 {
+    font-size: 1.2rem;
+}
+
+.highlight3 {
+    font-size: .9rem;
+}
+
